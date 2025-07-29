@@ -1,0 +1,97 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  color: white;
+  padding: 1rem;
+}
+
+
+
+.banner-01{
+  background-image: url(https://www.worldofwanderlust.com/wp-content/uploads/2016/08/Lake-Geneva-Switzerland.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+}
+
+.gas {
+  height: 400px;
+  background-color: white; /* ou transparente se tiver imagem de fundo */
+  padding: 60px;
+  display: flex;
+  flex-direction:column;
+  gap: 30px;
+}
+
+.gas h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.conteudo-56 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.tour {
+  width: 45%;
+  padding: 10px;
+  text-align:justify;
+  line-height: 1.6;
+}
+
+.rio {
+  width: 20%;
+  font-style:italic;
+  color: #000000;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+
+.footer-bottom {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  flex-wrap: wrap;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex: 1;
+  font-size: 18px;
+}
+
+.social-icons i {
+  color: rgba(34, 33, 33, 0.753);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #000000;
+}
+
+.co {
+  flex: 1;
+  text-align: right;
+  font-size: 12px;
+  color: #000;
+}
